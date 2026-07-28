@@ -1,0 +1,1211 @@
+.hero__header-decor::before {
+  width: 5.6em;
+  height: 4.23em;
+  top: -3em;
+  left: -4.5em;
+}
+
+b {
+  font-weight: 900;
+}
+
+.hero__header-decor {
+  right: 5.75em;
+  word-spacing: 0;
+  top: 3em;
+}
+
+@media (min-width: 1921px) {
+  .advantages__card {
+    font-size: 1.2vw;
+    max-width: 25%;
+  }
+
+  .hero__header {
+    font-size: calc(100vw - 95.2vw);
+  }
+
+  .hero__comment-title {
+    font-size: 2vw;
+  }
+
+  .hero__comment-text-block {
+    font-size: 1.2vw;
+  }
+}
+
+@media (max-width: 1940px) {
+  .hero__header {
+    font-size: calc(100vw - 95.2vw);
+  }
+}
+
+@media (max-width: 1920px) {
+  .advantages {
+    padding-top: 100px;
+  }
+
+  .hero__comment-title {
+    font-size: 35px;
+  }
+
+  .hero__comment-text-block {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1875px) {
+  .advantages__list {
+    gap: 30px;
+  }
+
+  .hero__header {
+    font-size: calc(100vw - 95.6vw);
+  }
+
+  .hero__comment-text-block {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1730px) {
+  .hero__header {
+    font-size: calc(100vw - 96vw);
+  }
+
+  .hero__wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
+
+  .advantages__decor-right {
+    bottom: 25%;
+  }
+  .advantages__decor-left {
+    bottom: -12%;
+    left: -7%;
+  }
+
+  .advantages__decor-bottom {
+    right: -7%;
+  }
+
+  .advantages__decor-bottom img {
+    width: 85%;
+  }
+
+  .advantages__decor-coins {
+    right: -16%;
+    bottom: -80px;
+  }
+
+  .advantages__decor-coins img {
+    width: 85%;
+  }
+
+  .advantages__text-block {
+    width: 80%;
+  }
+
+  .hero__comment-text-block {
+    font-size: 18px;
+  }
+
+  .hero__comment-title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1540px) {
+  .advantages__list {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .advantages__card-wrapper {
+    padding-bottom: 40px;
+  }
+
+  .advantages__card-text br {
+    display: none;
+  }
+
+  .advantages__text-wrapper {
+    font-size: 16px;
+  }
+
+  .advantages__decor-right {
+    bottom: 27%;
+  }
+
+  .advantages__card-icon {
+    max-width: 100px;
+  }
+
+  .btn {
+    padding: 32px 46px;
+  }
+
+  .btn span {
+    font-size: 30px;
+  }
+
+  .advantages__text-block {
+    margin-left: 150px;
+  }
+
+  .hero__header {
+    font-size: calc(100vw - 96.2vw);
+  }
+
+  .form__input {
+    padding: 30px 15px;
+    font-size: 20px;
+  }
+
+  .form__textarea {
+    padding: 30px 15px;
+    font-size: 20px;
+  }
+
+  .hero__comment-block {
+    width: 40%;
+  }
+
+  .connect__comment-like::before {
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+  }
+
+  .connect__comment-btns {
+    font-size: 20px;
+  }
+
+  .connect__comment::before {
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+  }
+
+  span.connect__comment-raiting {
+    width: 100px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .hero {
+    padding: 100px 100px 150px;
+  }
+
+  .hero__big-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .btn {
+    padding: 25px 35px;
+  }
+
+  .btn span {
+    font-size: 25px;
+  }
+
+  .form__input {
+    padding: 25px 15px;
+  }
+
+  .form__textarea {
+    padding: 25px 15px;
+  }
+
+  .wrapper {
+    padding: 0 40px;
+    margin-bottom: -60px;
+  }
+
+  .advantages__list {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .advantages {
+    padding: 160px 20px;
+  }
+
+  .advantages__decor-coins {
+    bottom: -80px;
+    right: -17%;
+  }
+
+  .advantages__text-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-left: 0;
+    padding: 0 60px;
+  }
+
+  .advantages__decor-left {
+    bottom: -6%;
+    left: 0;
+  }
+
+  .advantages__decor-left img {
+    width: 75%;
+  }
+
+  .advantages__decor-right {
+    right: -10%;
+    bottom: 32%;
+  }
+
+  .advantages__decor-right img {
+    width: 75%;
+  }
+
+  .connect-title {
+    display: block;
+    text-align: center;
+  }
+
+  .connect {
+    background: 0 0;
+  }
+
+  .connect__comment-block {
+    height: 100%;
+  }
+
+  .reg-title {
+    margin-top: 80px;
+  }
+
+  .description__title {
+    font-size: 40px;
+  }
+
+  .description__subtitle {
+    font-size: 22px;
+  }
+
+  .advantages__text-block {
+    width: 100%;
+  }
+
+  .advantages__title {
+    margin-bottom: 30px;
+  }
+
+  .footer__link {
+    font-size: 25px;
+  }
+
+  .footer__tagline {
+    font-size: 30px;
+  }
+
+  .footer__upper-block {
+    padding: 45px 0;
+  }
+
+  .hero__comment-title {
+    font-size: 25px;
+  }
+
+  .hero__comment-block {
+    width: 45%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    padding: 60px 60px 100px;
+  }
+
+  .hero__big-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .wrapper {
+    padding: 0 40px;
+    margin-bottom: -100px;
+  }
+
+  .advantages__list {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  .advantages {
+    padding: 80px 10px;
+    padding-top: 200px;
+  }
+
+  .advantages__decor-coins {
+    bottom: -70px;
+    right: -370px;
+  }
+
+  .advantages__decor-coins img {
+    width: 70%;
+  }
+
+  .advantages__decor-left img {
+    width: 45%;
+  }
+
+  .advantages__decor-right {
+    right: -240px;
+    bottom: 28%;
+  }
+
+  .advantages__decor-right img {
+    width: 45%;
+  }
+
+  .advantages__decor-bottom {
+    right: -220px;
+  }
+
+  .advantages__decor-bottom img {
+    width: 70%;
+  }
+
+  .advantages__text-block {
+    margin-left: 0;
+    padding: 0 30px;
+  }
+
+  .advantages__title {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .advantages__text {
+    font-size: 20px;
+  }
+
+  .connect {
+    background: 0 0;
+  }
+
+  .connect__comments-list {
+    padding: 0 40px;
+  }
+
+  .connect-title {
+    display: block;
+    text-align: center;
+  }
+
+  .connect__comment-block {
+    height: 100%;
+  }
+
+  .connect__comment-block br {
+    display: none;
+  }
+
+  .advantages__card-icon {
+    max-width: 85px;
+  }
+
+  .advantages__card-title {
+    margin-bottom: 15px;
+  }
+
+  .advantages__card-wrapper {
+    padding: 20px;
+  }
+
+  .description__title {
+    font-size: 30px;
+  }
+
+  .description__subtitle {
+    font-size: 20px;
+  }
+
+  .reg-title {
+    margin-top: 40px;
+  }
+
+  .crypto-exchanges__list img {
+    max-width: 60px;
+  }
+
+  .connect__comment-avatar {
+    max-width: 80px;
+  }
+
+  .connect__comment-info {
+    margin-left: 95px;
+  }
+
+  .connect__comment-title {
+    font-size: 25px;
+  }
+
+  span.connect__comment-raiting {
+    width: 50%;
+  }
+
+  .connect__comment-text {
+    font-size: 18px;
+  }
+
+  .connect__comment-btns {
+    font-size: 20px;
+  }
+
+  .connect__comment-like::before {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .connect__comment::before {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .hero__comment-block {
+    width: 50%;
+  }
+
+  .hero__comment-text-block {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero {
+    padding: 100px 20px;
+    font-size: 52px;
+    background:
+      url("/images/background/pattern-mob.webp"),
+      url("/images/background/coins.webp");
+    background-size: cover, 90%;
+    background-repeat: no-repeat, no-repeat;
+    background-position:
+      center,
+      0% -40%;
+  }
+
+  .hero__big-col {
+    width: 100%;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .hero__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .hero__header {
+    font-size: 7vw;
+  }
+
+  .hero__col {
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .form__input {
+    padding: 25px 15px;
+  }
+
+  .btn {
+    padding: 1em 1.2em;
+    font-size: 30px;
+  }
+
+  .btn span {
+    font-size: 30px;
+  }
+
+  .description__title {
+    text-align: center;
+  }
+
+  .description__title br {
+    display: none;
+  }
+
+  .description__title-wrapper {
+    padding: 0 70px;
+  }
+
+  .description__subtitle {
+    text-align: center;
+  }
+
+  .description__subtitle br {
+    display: none;
+  }
+
+  .form__textarea {
+    padding: 25px 15px;
+  }
+
+  .advantages {
+    padding: 80px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .advantages__list {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .advantages__card {
+    max-width: 350px;
+  }
+
+  .advantages__decor-right {
+    display: none;
+    position: static;
+  }
+
+  .advantages__decor-left {
+    display: none;
+    position: static;
+  }
+
+  .advantages__decor-bottom {
+    display: none;
+    position: static;
+  }
+
+  .advantages__decor-coins {
+    display: none;
+    position: static;
+  }
+
+  .advantages__card-wrapper {
+    padding-bottom: 30px;
+  }
+
+  .advantages__text-block {
+    margin-top: 50px;
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 40px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .crypto-exchanges__list {
+    padding: 20 0;
+  }
+
+  .advantages__title br {
+    display: none;
+  }
+
+  .advantages__text br {
+    display: none;
+  }
+
+  .connect-title {
+    text-align: center;
+    display: block;
+  }
+
+  .connect-title br {
+    display: none;
+  }
+
+  .connect {
+    background: 0 0;
+  }
+
+  .connect__comments-list {
+    padding: 0 20px;
+  }
+
+  .wrapper {
+    margin-bottom: 0;
+  }
+
+  .hero__comment-title-block hr {
+    margin: 10px 0;
+  }
+
+  .hero__comment-title {
+    font-size: 20px;
+  }
+
+  .hero__comment-text-block {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero__comment-title {
+    font-size: 25px;
+  }
+
+  .hero__comment-wrapper {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .hero__comment-block {
+    width: 80%;
+    -ms-grid-rows: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+  }
+
+  .hero__comment-text-block {
+    font-size: 18px;
+  }
+
+  .hero {
+    padding: 50px 20px;
+    background-size: cover, 0%;
+  }
+
+  .hero__col {
+    padding-top: 35px;
+  }
+
+  .btn {
+    font-size: 25px;
+  }
+
+  .btn span {
+    font-size: 25px;
+  }
+
+  .description__title {
+    font-size: 40px;
+  }
+
+  .advantages {
+    background-size: cover;
+    background-position: center;
+    padding: 60px 15px;
+  }
+
+  .advantages__list {
+    margin-bottom: 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .advantages__text-block {
+    margin-top: 70px;
+  }
+
+  .advantages__title {
+    margin-bottom: 30px;
+  }
+
+  .connect {
+    padding: 40px 0;
+  }
+
+  .connect-title {
+    margin-bottom: 50px;
+  }
+
+  .connect__comment-text {
+    font-size: 18px;
+  }
+
+  .connect__comment-title {
+    font-size: 25px;
+  }
+
+  .connect__comments-list {
+    margin-bottom: 40px;
+  }
+
+  .footer__upper-block {
+    padding: 40px 0;
+  }
+
+  .footer__link {
+    font-size: 25px;
+  }
+
+  .footer__tagline {
+    font-size: 30px;
+  }
+
+  .footer__copyright {
+    font-size: 20px;
+  }
+
+  .connect-title {
+    font-size: 30px;
+  }
+
+  .crypto-exchanges__list {
+    padding: 20px 0;
+  }
+
+  .crypto-exchanges__list img {
+    max-width: 60px;
+  }
+
+  .connect__comment-avatar {
+    max-width: 80px;
+  }
+
+  .connect__comment-info {
+    margin-left: 95px;
+  }
+
+  .connect__comment-raiting {
+    width: 50%;
+  }
+
+  .connect__comment-like {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  .connect__comment {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  .hero__comment-wrapper {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .crypto-exchanges__list {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 35px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .hero__comment-block {
+    width: 80%;
+    -ms-grid-rows: 1.8fr 1fr;
+    grid-template-rows: 1.8fr 1fr;
+  }
+
+  .description__title-wrapper {
+    padding: 0 30px;
+  }
+
+  .description__title {
+    font-size: 35px;
+  }
+
+  .description__subtitle {
+    font-size: 20px;
+  }
+
+  .description__title-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .advantages__card {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .advantages__list {
+    padding: 0 10px;
+  }
+
+  .advantages__card-wrapper {
+    padding: 15px;
+    padding-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+  }
+
+  .advantages__text-wrapper {
+    padding: 0;
+  }
+
+  .advantages__card-title {
+    margin-bottom: 15px;
+  }
+
+  .advantages__card-icon {
+    max-width: 65px;
+    height: auto;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    margin-bottom: 0;
+  }
+
+  .advantages__card-text br {
+    display: none;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+
+  .btn span {
+    font-size: 20px;
+  }
+
+  .advantages__text-block {
+    margin-top: 40px;
+  }
+
+  .advantages__title br {
+    display: none;
+  }
+
+  .advantages__text-block {
+    padding: 0 15px;
+  }
+
+  .connect__comment-title {
+    font-size: 20px;
+    width: 75%;
+    margin-bottom: 0;
+  }
+
+  .connect__comment-avatar {
+    max-width: 15%;
+  }
+
+  .connect__comment-info {
+    margin-left: 0;
+  }
+
+  span.connect__comment-raiting {
+    width: 30%;
+  }
+
+  .connect__comment-like::before {
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+  }
+
+  .connect__comment-btns {
+    font-size: 20px;
+  }
+
+  .connect__comment::before {
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+  }
+
+  .connect__comment-block {
+    padding: 20px;
+  }
+
+  .connect__comment-text br {
+    display: none;
+  }
+
+  .footer__link-wrapper {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    gap: 0;
+  }
+
+  .footer__link {
+    font-size: 20px;
+  }
+
+  .footer__tagline {
+    font-size: 20px;
+  }
+
+  .footer__copyright {
+    font-size: 14px;
+  }
+
+  .description__title-wrapper {
+    padding: 0;
+  }
+
+  .wrapper {
+    padding: 0 10px;
+  }
+
+  .advantages__list {
+    padding-top: 40px;
+  }
+
+  .crypto-exchanges__list {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .crypto-exchanges__list img {
+    max-width: 45px;
+  }
+
+  .form {
+    max-width: 380px;
+  }
+
+  .form__input {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .form__input::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+
+  .form__input::-moz-placeholder {
+    font-size: 16px;
+  }
+
+  .form__input:-ms-input-placeholder {
+    font-size: 16px;
+  }
+
+  .form__input::-ms-input-placeholder {
+    font-size: 16px;
+  }
+
+  .form__input::placeholder {
+    font-size: 16px;
+  }
+
+  .form__textarea {
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .form__textarea::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+
+  .form__textarea::-moz-placeholder {
+    font-size: 16px;
+  }
+
+  .form__textarea:-ms-input-placeholder {
+    font-size: 16px;
+  }
+
+  .form__textarea::-ms-input-placeholder {
+    font-size: 16px;
+  }
+
+  .form__textarea::placeholder {
+    font-size: 16px;
+  }
+
+  img.logo__img {
+    width: 15%;
+  }
+
+  span.logo__text {
+    font-size: 18px;
+  }
+
+  .hero__comment-text-block {
+    font-size: 16px;
+  }
+
+  .hero__comment-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__comment-block {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero__comment-text-block {
+    border-radius: 0 0 20px 20px;
+  }
+
+  .description__title {
+    font-size: 30px;
+  }
+
+  .advantages__title {
+    font-size: 30px;
+  }
+
+  .advantages__text {
+    font-size: 20px;
+  }
+
+  .connect-title {
+    padding: 15px;
+    font-size: 25px;
+  }
+
+  .crypto-exchanges__list {
+    padding: 10px;
+  }
+
+  .crypto-exchanges__list img {
+    max-width: 25px;
+  }
+
+  span.logo__text {
+    font-size: 16px;
+  }
+
+  .hero__comment-text-block {
+    padding: 10px;
+  }
+
+  .hero__comment-block {
+    border-radius: 20px;
+  }
+
+  .hero__comment-text-block {
+    font-size: 14px;
+  }
+
+  .hero__comment-title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero {
+    padding: 20px 15px;
+  }
+
+  .advantages__title {
+    font-size: 25px;
+  }
+
+  .advantages__text {
+    font-size: 16px;
+  }
+
+  .connect-title {
+    margin-bottom: 20px;
+  }
+
+  .connect-title {
+    font-size: 20px;
+  }
+
+  .connect__comment-text {
+    font-size: 16px;
+  }
+
+  .connect__comment-btns {
+    font-size: 16px;
+  }
+
+  .footer__link {
+    font-size: 16px;
+  }
+
+  .footer__tagline {
+    font-size: 18px;
+  }
+
+  .footer__copyright {
+    text-align: center;
+  }
+
+  .footer__lover-block {
+    padding: 15px;
+  }
+
+  .connect__comment-title {
+    width: 70%;
+    margin-bottom: 0;
+  }
+
+  .connect__comment-avatar {
+    max-width: 18%;
+  }
+
+  .hero__comment-img img {
+    height: 520px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+}

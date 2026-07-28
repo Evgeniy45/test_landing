@@ -1,0 +1,324 @@
+@import "./fonts-1.css";
+#reg_popup {
+  display: none;
+}
+.popup__bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  z-index: 10000;
+  font-family: montserrat, Arial, sans-serif !important;
+  overflow-x: hidden;
+}
+.popup {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  width: 640px;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 70% auto;
+  grid-template-rows: 1fr;
+  grid-template-areas: "info decor";
+  gap: 10px;
+  box-sizing: content-box;
+}
+.popup__info-block {
+  grid-area: info;
+}
+.popup__info-decor {
+  grid-area: decor;
+}
+.popup__title {
+  font-size: 35px !important;
+  text-transform: capitalize;
+  margin-top: 10px !important;
+  margin-right: 0;
+  margin-bottom: 20px !important;
+  margin-left: 0;
+  color: #115f11 !important;
+  font-weight: 800 !important;
+  text-shadow: none;
+  width: 100% !important;
+  line-height: normal !important;
+  text-shadow: none !important;
+  font-family: montserrat, Arial, sans-serif !important;
+  letter-spacing: normal;
+}
+.popup__info {
+  display: flex;
+  flex-direction: row;
+}
+.popup__call-icon {
+  width: 70px;
+}
+.popup__call-text {
+  width: 68%;
+  margin: auto 0 auto 3%;
+  font-size: 19px;
+  line-height: 21px;
+  color: #1e1e1e;
+  font-family: montserrat, Arial, sans-serif !important;
+  letter-spacing: normal;
+}
+.popup__call-text_highlight {
+  font-weight: 600;
+}
+.popup__subtitle {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 30px 0 15px;
+  color: #1e1e1e;
+  font-style: normal;
+  text-align: start;
+  font-family: montserrat, Arial, sans-serif !important;
+  letter-spacing: normal;
+}
+.popup__instruction {
+  list-style-type: decimal;
+  padding: 0 0 0 8%;
+  margin: 0 0 25px;
+}
+.popup__instruction-element {
+  font-size: 23px;
+  line-height: 29px;
+  list-style-type: decimal;
+  color: #1e1e1e;
+  font-family: montserrat, Arial, sans-serif !important;
+  letter-spacing: normal;
+}
+.popup__button {
+  width: 90%;
+  height: 60px;
+  background: #67bc14;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 14px 4px rgba(34, 60, 80, 0.19);
+  text-decoration: none;
+}
+.popup__button-text {
+  font-size: 23px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: montserrat, Arial, sans-serif !important;
+  letter-spacing: normal;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.popup__decoration {
+  position: relative;
+  background: linear-gradient(
+    -125deg,
+    rgba(33, 235, 93, 1) 0%,
+    rgba(152, 214, 57, 0.8328079971181557) 47%,
+    rgba(97, 232, 98, 0.325603386167147) 90%
+  );
+  width: 100%;
+  height: 100%;
+  border-radius: 0 15px 15px 0;
+}
+.popup__pic {
+  position: absolute;
+  top: 14%;
+  left: 27%;
+  max-width: 250px;
+}
+@media screen and (max-width: 1024px) {
+  .popup {
+    width: fit-content;
+    height: 545px;
+    grid-template-areas: "decor" "info";
+    grid-template-rows: 26% 1fr;
+    grid-template-columns: 432px;
+  }
+  .popup__info-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .popup__title {
+    text-align: center;
+  }
+  .popup__info {
+    gap: 4%;
+    justify-content: center;
+  }
+  .popup__call-text {
+    width: 65%;
+    margin: auto 0;
+    font-size: 18px;
+  }
+  .popup__decoration {
+    border-radius: 15px 15px 0 0;
+    background: linear-gradient(
+      175deg,
+      rgba(33, 235, 93, 1) 0%,
+      rgba(152, 214, 57, 0.8328079971181557) 47%,
+      rgba(97, 232, 98, 0.325603386167147) 90%
+    );
+  }
+  .popup__pic {
+    width: 175px;
+    top: -55%;
+    left: 29.8%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .popup {
+    height: 448px;
+    grid-template-rows: 24% 1fr;
+    grid-template-columns: 352px;
+  }
+  .popup__title {
+    font-size: 28px !important;
+    margin-top: 7px !important;
+    margin-right: 0;
+    margin-bottom: 15px !important;
+    margin-left: 0;
+  }
+  .popup__info {
+    gap: 3%;
+  }
+  .popup__call-icon {
+    width: 60px;
+  }
+  .popup__call-text {
+    width: 100%;
+  }
+  .popup__pic {
+    width: 135px;
+    top: -60%;
+    left: 31%;
+  }
+  .popup__subtitle {
+    font-size: 24px;
+    margin: 15px 0 20px;
+    line-height: normal;
+    font-family: inherit;
+  }
+  .popup__instruction {
+    margin: 0 0 20px;
+  }
+  .popup__instruction-element {
+    font-size: 19px;
+    line-height: 27px;
+  }
+  .popup__button {
+    height: 50px;
+  }
+  .popup__button-text {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .popup {
+    height: 402px;
+    grid-template-rows: 24% 1fr;
+    grid-template-columns: 304px;
+  }
+  .popup__title {
+    font-size: 24px !important;
+  }
+  .popup__info {
+    gap: 3%;
+    align-items: center;
+  }
+  .popup__call-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .popup__call-text {
+    width: 75%;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  .popup__pic {
+    width: 120px;
+    top: -61%;
+    left: 31%;
+  }
+  .popup__subtitle {
+    font-size: 21px;
+    margin: 20px 0 15px;
+  }
+  .popup__instruction {
+    margin: 0 0 20px;
+  }
+  .popup__instruction-element {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .popup__button {
+    height: 40px;
+  }
+  .popup__button-text {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .popup {
+    padding: 12px;
+    height: 340px;
+    grid-template-rows: 26% 1fr;
+    grid-template-columns: 272px;
+    gap: 7px;
+  }
+  .popup__title {
+    font-size: 21px !important;
+    line-height: 24px !important;
+    margin-top: 7px !important;
+    margin-right: 0;
+    margin-bottom: 12px !important;
+    margin-left: 0;
+  }
+  .popup__info {
+    gap: 4%;
+  }
+  .popup__call-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .popup__call-text {
+    width: 75%;
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .popup__pic {
+    width: 100px;
+    top: -51%;
+    left: 32.5%;
+  }
+  .popup__subtitle {
+    font-size: 19px;
+    margin: 15px 0 8px;
+  }
+  .popup__instruction {
+    margin: 0 0 12px;
+    padding: 0 0 0 6%;
+  }
+  .popup__instruction-element {
+    font-size: 15px;
+    line-height: 21px;
+  }
+  .popup__button {
+    width: 90%;
+    height: 35px;
+  }
+  .popup__button-text {
+    font-size: 15px;
+  }
+}
